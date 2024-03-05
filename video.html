@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        header h1 {
+            float: left;
+            padding-left: 20px;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 20px;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            color: #e8491d;
+        }
+
+        @media(max-width:768px) {
+            header h1 {
+                float: none;
+            }
+
+            nav ul {
+                float: none;
+                text-align: center;
+                margin-right: 0;
+                padding: 10px 0;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 0;
+            }
+        }
+
+        section {
+            float: left;
+            width: 70%;
+            padding: 20px;
+        }
+
+        aside {
+            float: left;
+            width: 25%;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Logo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h1>Welcome to our Website</h1>
+            <p>This is a sample responsive website design.</p>
+        </div>
+    </section>
+
+    <aside>
+        <div class="container">
+            <h2>Side Bar</h2>
+            <p>This is a sample sidebar.</p>
+        </div>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+</body>
+</html>

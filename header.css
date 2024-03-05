@@ -1,0 +1,85 @@
+body {
+    padding-top: 90px;
+    padding-bottom: 1000px;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(156, 0, 0);
+    border-bottom: none;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    position: fixed;
+    top: 20px;
+    left: 400px;
+    right: 300px;
+    z-index: 999;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.header img {
+    margin-top: 10px;
+    width: 700px;
+    height: 700px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.g1 img {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    margin-left: 280px;
+    margin-right: 70px;
+}
+
+
+.container {
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background:rgb(249, 219, 186);
+    color: #fff;
+    padding-top: 20px;
+    min-height: 20px;
+}
+.container button{
+    width: 289px;
+    height: 40px;
+    color: rgb(156, 0, 0);
+    background-color: rgb(184, 168, 140);
+}
+.g3 img{
+    margin-top: 600px;
+    width: 500px;
+    height: 500px;
+    margin-left: 490px;
+}
+.g4{
+    text-align:right;
+    color: rgb(156, 0, 0);
+
+}
+.g4 img{
+    margin-top: 100px;
+    width: 400px;
+    height: 200px;
+    margin-right:500px;
+}
